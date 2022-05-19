@@ -10,7 +10,7 @@ import Row from '../..components/Row'
 import { getAlbums } from '../../lib/api'
 
 export async function getStaticProps() {
-    const albums = getAlbums();
+    const albums = await getAlbums();
     return {
         props: {
             albums
