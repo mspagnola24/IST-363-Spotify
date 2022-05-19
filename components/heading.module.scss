@@ -1,0 +1,22 @@
+@use '../abstracts/mixins.scss';
+
+.heading {
+    font-family: Arial;
+    font-weight: bold;
+    &.heading1 {
+        font-size: 3rem;
+        @include mixins.breakpoint(tablet) {
+            font-size: 3.5rem;
+        }
+        @include mixins.breakpoint(tablet) {
+            font-size: 3.5rem;
+        }
+    &.heading2 {
+        font-size: 3rem;
+        @include mixins.breakpoint(tablet) {
+            font-size: 3.5rem;
+    }
+    &.heading3 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,11 @@
+@use 
+
+.section {
+    background-color: pink;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &.white {
+        background-color: white;
+    }
+
+}

@@ -1,0 +1,19 @@
+@use '../abstracts/vars';
+
+.artist-teaser {
+	background-color: teal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	h2 {
+		font-family: Georgia;
+		font-size: 30px;
+		font-style: italic;
+	}
+	p {
+		color: white;
+		a {
+			color: vars.$SUorange;
+		}
+	}
+}
+

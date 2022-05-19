@@ -1,0 +1,10 @@
+span {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+&.active {
+    img {
+        background-color: vars.$color_primary;
+    }
+}
